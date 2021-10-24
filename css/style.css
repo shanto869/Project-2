@@ -1,0 +1,2748 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ================
+	common css ends
+ ================ */
+
+
+/* ==============
+ 	header css starts 
+ 	=============== */
+
+.header-bg {
+    width: 100%;
+    height: 40px;
+    background-color: #0b2c3d;
+}
+
+.header-bg .header-content {
+    width: 1150px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.header-bg .header-content .gmail {
+    width: 180px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .gmail a img {
+    width: 25px;
+    height: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.header-bg .header-content .gmail .add {
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    float: left;
+    transition: all linear 0.2s;
+}
+
+.header-bg .header-content .gmail .add:hover {
+    color: red;
+}
+
+.header-bg .header-content .location {
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .location a img {
+    width: 20px;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+}
+
+.header-bg .header-content .location .add {
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    float: left;
+    transition: all linear 0.2s;
+}
+
+.header-bg .header-content .location .add:hover {
+    color: red;
+}
+
+.header-bg .header-content .blank {
+    width: 520px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .social-link {
+    width: 250px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .social-link .fb-insta {
+    width: 130px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .social-link .fb-insta a img {
+    width: 24px;
+    height: 24px;
+    padding-top: 6px;
+    padding-left: 5px;
+    float: left;
+}
+
+.header-bg .header-content .social-link .listing {
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+
+.header-bg .header-content .social-link .listing .hi {
+    background-color: #ff5a3c;
+    text-transform: capitalize;
+    margin: 0 auto;
+    text-align: center;
+    width: 120px;
+    line-height: 40px;
+    color: white;
+    float: right;
+    transition: all linear 0.2s;
+}
+
+.header-bg .header-content .social-link .listing .hi:hover {
+    background-color: #f2f6f7;
+    color: black;
+}
+
+
+/* 1st row css ends */
+
+
+/* ==============
+ 	header css ends
+  ================*/
+
+
+/* =================
+ 	menu css starts 
+  =================== */
+
+.menu-bg {
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.menu-bg .home-content {
+    width: 1150px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.menu-bg .home-content .home-btn {
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+.menu-bg .home-content .home-btn a img {
+    padding-top: 20px;
+    width: 160px;
+    height: 45px;
+}
+
+.menu-bg .home-content .home-menu {
+    width: 750px;
+    height: 90px;
+    float: left;
+}
+
+.menu-bg .home-content .home-menu .unorder-list {
+    list-style: none;
+    margin-left: 130px;
+}
+
+.menu-bg .home-content .home-menu .unorder-list li {
+    float: left;
+}
+
+.menu-bg .home-content .home-menu .unorder-list li a {
+    line-height: 90px;
+    text-transform: capitalize;
+    font-family: arial;
+    padding: 15px;
+    color: black;
+    transition: all linear 0.2s;
+}
+
+.menu-bg .home-content .home-menu .unorder-list li a:hover {
+    color: red;
+}
+
+.menu-bg .home-content .home-search {
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+.menu-bg .home-content .home-search ul li a img {
+    width: 45px;
+    height: 42px;
+    float: left;
+    padding: 25px 6px;
+}
+
+.menu-bg .home-content .home-search ul {
+    list-style: none;
+}
+
+
+/*=================
+ banner-bg css starts
+ =================== */
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-color: #F2F4EC;
+}
+
+.banner .banner-bg {
+    width: 1150px;
+    height: 450px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+}
+
+.banner .banner-bg .banner-text {
+    width: 450px;
+    height: 450px;
+    background-color: #f2f6f7;
+    float: left;
+}
+
+.banner .banner-bg .banner-image {
+    width: 700px;
+    height: 450px;
+    background-color: #C432CD;
+    float: left;
+}
+
+.banner .banner-bg .banner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner-bg .banner-text img {
+    height: 27px;
+    width: 27px;
+    float: left;
+    padding-right: 3px;
+    padding-top: 70px;
+}
+
+.banner .banner-bg .banner-text p {
+    text-transform: capitalize;
+    font-size: 19px;
+    float: left;
+    padding-right: 190px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.banner .banner-bg .banner-text h1 {
+    text-transform: capitalize;
+    font-size: 47px;
+    padding-bottom: 15px;
+}
+
+.banner .banner-bg .banner-text .lorem {
+    color: #98a6ad;
+    padding-left: 25px;
+    padding-right: 10px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.banner .banner-bg .banner-text .box .hover-t {
+    width: 240px;
+    height: 60px;
+    background-color: #ff5a3c;
+    border: 1px solid black;
+    padding-right: 0px;
+    display: inline-block;
+    transition: all linear 0.2s;
+}
+
+.banner .banner-bg .banner-text .box .hover-t .paragraph {
+    color: white;
+    font-size: 18px;
+    padding-right: 0px;
+    padding-left: 45px;
+    padding-top: 0px;
+    display: inline-block;
+    line-height: 60px;
+    transition: all linear 0.2s;
+}
+
+.banner .banner-bg .banner-text .box .hover-t:hover {
+    background-color: white;
+}
+
+.banner .banner-bg .banner-text .box .hover-t:hover .paragraph {
+    color: black;
+}
+
+
+/* ================
+banner-bg ends 
+====================*/
+
+
+/* ===============
+	proparty-status css starts
+ ================= */
+
+.proparty {
+    width: 100%;
+    height: 120px;
+    background-color: #f2f6f7;
+}
+
+.proparty .proparty-area {
+    width: 1150px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.proparty .proparty-area .chose {
+    width: 285px;
+    height: 120px;
+    float: left;
+}
+
+.proparty .proparty-area .chose .box-1 .box1-area {
+    width: 240px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 32px 17px;
+}
+
+.proparty .proparty-area .chose .box-1 .box1-area p {
+    color: black;
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.proparty .proparty-area .chose .box-1 .box1-area {
+    background-image: url('../images/erro.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.proparty .proparty-area .status {
+    width: 285px;
+    height: 120px;
+    float: left;
+}
+
+.proparty .proparty-area .status .box-2 .box2-area {
+    width: 240px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 32px 17px;
+}
+
+.proparty .proparty-area .status .box-2 .box2-area p {
+    color: black;
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.proparty .proparty-area .status .box-2 .box2-area {
+    background-image: url('../images/erro.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.proparty .proparty-area .type {
+    width: 285px;
+    height: 120px;
+    float: left;
+}
+
+.proparty .proparty-area .type .box-3 .box3-area {
+    width: 240px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 32px 17px;
+}
+
+.proparty .proparty-area .type .box-3 .box3-area p {
+    color: black;
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.proparty .proparty-area .type .box-3 .box3-area {
+    background-image: url('../images/erro.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.proparty .proparty-area .find {
+    width: 295px;
+    height: 120px;
+    float: left;
+}
+
+.proparty .proparty-area .find .box-4 .box4-area {
+    width: 150px;
+    height: 60px;
+    background-color: #ff5a3c;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 32px 45px;
+    transition: all linear 0.2s;
+}
+
+.proparty .proparty-area .find .box-4 .box4-area p {
+    color: white;
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-left: 35px;
+    transition: all linear 0.2s;
+}
+
+.proparty .proparty-area .find .box-4 .box4-area:hover {
+    background-color: white;
+}
+
+.proparty .proparty-area .find .box-4 .box4-area p:hover {
+    color: black;
+}
+
+
+/* ===============
+	proparty-status css ends
+ ================= */
+
+
+/* ===============
+	dash css ends
+ ================= */
+
+.blank-area {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+
+/* ===============
+	dash css ends
+ ================= */
+
+
+/* ===============
+	about-us css starts
+ ================= */
+
+.about-us {
+    width: 1150px;
+    height: 650px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.about-us .img {
+    width: 500px;
+    height: 650px;
+    margin: 0 auto;
+    float: left;
+}
+
+.about-us .img img {
+    width: 500px;
+    height: 650px;
+}
+
+
+/* descript-about css starts */
+
+.about-us .descript-about {
+    width: 630px;
+    height: 650px;
+    margin: 0 auto;
+    float: right;
+}
+
+.about-us .descript-about .living {
+    width: 630px;
+    height: 220px;
+}
+
+.about-us .descript-about .living img {
+    height: 21px;
+}
+
+.about-us .descript-about .living h3 {
+    font-size: 43px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.about-us .descript-about .living p {
+    font-size: 18px;
+    color: #7f737f;
+    line-height: 26px;
+    padding-right: 50px;
+}
+
+.about-us .descript-about .information {
+    width: 630px;
+    height: 430px;
+}
+
+
+/* residency css starts */
+
+.about-us .descript-about .information .residency {
+    width: 626px;
+    height: 134px;
+    background-color: white;
+    margin-bottom: 15px;
+    position: relative;
+    transition: all linear 0.5s;
+}
+
+.about-us .descript-about .information .residency::before {
+    content: '';
+    width: 5px;
+    height: 0;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+.about-us .descript-about .information .residency:hover::before {
+    height: 100%;
+}
+
+.about-us .descript-about .information .residency .images {
+    width: 100px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .residency .images img {
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.about-us .descript-about .information .residency div {
+    width: 526px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .residency div h4 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-us .descript-about .information .residency div p {
+    font-size: 18px;
+    color: #7f737f;
+    line-height: 26px;
+    padding-right: 50px;
+}
+
+
+/* residency css ends */
+
+
+/* experts css starts */
+
+.about-us .descript-about .information .exparts {
+    width: 626px;
+    height: 133px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    position: relative;
+    transition: all linear 0.5s;
+}
+
+.about-us .descript-about .information .exparts::before {
+    content: '';
+    width: 5px;
+    height: 0;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+.about-us .descript-about .information .exparts:hover::before {
+    height: 100%;
+}
+
+.about-us .descript-about .information .exparts .images {
+    width: 100px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .exparts .images img {
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.about-us .descript-about .information .exparts div {
+    width: 526px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .exparts div h4 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-us .descript-about .information .exparts div p {
+    font-size: 18px;
+    color: #7f737f;
+    line-height: 26px;
+    padding-right: 50px;
+}
+
+
+/* experts css ends */
+
+
+/* cupboards css starts */
+
+.about-us .descript-about .information .cupboards {
+    width: 626px;
+    height: 133px;
+    background-color: #ffffff;
+    position: relative;
+    transition: all linear 0.5s;
+}
+
+.about-us .descript-about .information .cupboards::before {
+    content: '';
+    width: 5px;
+    height: 0;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+.about-us .descript-about .information .cupboards:hover::before {
+    height: 100%;
+}
+
+.about-us .descript-about .information .cupboards .images {
+    width: 100px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .cupboards .images img {
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.about-us .descript-about .information .cupboards div {
+    width: 526px;
+    height: 134px;
+    float: left;
+}
+
+.about-us .descript-about .information .cupboards div h4 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-us .descript-about .information .cupboards div p {
+    font-size: 18px;
+    color: #7f737f;
+    line-height: 26px;
+    padding-right: 50px;
+}
+
+
+/* cupboards css ends */
+
+
+/* descript-about css ends */
+
+
+/* ===============
+	about-us css ends
+ ================= */
+
+
+/* ===============
+	proparty-description css starts
+ ================= */
+
+.description {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f6f7;
+}
+
+.description .pro-description {
+    width: 1150px;
+    height: 400px;
+    background-color: #f2f6f7;
+    margin: 0 auto;
+}
+
+.description .pro-description .toatal-area {
+    width: 287px;
+    height: 400px;
+    float: left;
+}
+
+.description .pro-description .toatal-area img {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+
+.description .pro-description .toatal-area .a {
+    font-size: 40px;
+    padding-left: 107px;
+    padding-top: 23px;
+}
+
+.description .pro-description .toatal-area p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #63757d;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.description .pro-description .sold {
+    width: 287px;
+    height: 400px;
+    float: left;
+}
+
+.description .pro-description .sold img {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+
+.description .pro-description .sold .b {
+    font-size: 40px;
+    padding-left: 87px;
+    padding-top: 23px;
+}
+
+.description .pro-description .sold p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #63757d;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.description .pro-description .cons-vachu {
+    width: 287px;
+    height: 400px;
+    float: left;
+}
+
+.description .pro-description .cons-vachu img {
+    width: 76px;
+    height: 76px;
+    display: inline-block;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+
+.description .pro-description .cons-vachu .c {
+    font-size: 40px;
+    padding-left: 107px;
+    padding-top: 23px;
+}
+
+.description .pro-description .cons-vachu p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #63757d;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.description .pro-description .room {
+    width: 289px;
+    height: 400px;
+    float: left;
+}
+
+.description .pro-description .room img {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+
+.description .pro-description .room .d {
+    font-size: 40px;
+    padding-left: 107px;
+    padding-top: 23px;
+}
+
+.description .pro-description .room p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #63757d;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+
+/* ===============
+	proparty-description css ends
+ ================= */
+
+
+/* ===============
+	our-services css ends
+ ================= */
+
+.our-services {
+    width: 100%;
+    height: 800px;
+    background-color: #f2f6f7;
+}
+
+.our-services .service-heading {
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.our-services .service-heading img {
+    width: 155px;
+    height: 42px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+.our-services .service-heading h2 {
+    font-size: 43px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-left: 420px;
+    padding-top: 13px;
+}
+
+.our-services .service-content {
+    width: 1150px;
+    height: 550px;
+    background-color: #f2f6f7;
+    margin: 0 auto;
+}
+
+.our-services .service-content .buy-home {
+    width: 363px;
+    height: 430px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.our-services .service-content .buy-home img {
+    width: ;
+    height: ;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.our-services .service-content .buy-home a h3 {
+    font-size: 29px;
+    color: black;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.our-services .service-content .buy-home p {
+    font-size: 18px;
+    color: #9fa7ae;
+    padding: 18px 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.our-services .service-content .buy-home .find p {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #93b4b2;
+    transition: all linear 0.5s;
+}
+
+.our-services .service-content .buy-home::before {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all linear .3s;
+}
+
+.our-services .service-content .buy-home:hover::before {
+    content: '';
+    width: 100%;
+}
+
+.our-services .service-content .buy-home:hover .find p {
+    color: #ff5a3c;
+}
+
+
+/* buy home css ends */
+
+.our-services .service-content .rent-home {
+    width: 363px;
+    height: 430px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    transition: all linear 0.5s;
+}
+
+.our-services .service-content .rent-home::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all linear 0.3s;
+}
+
+.our-services .service-content .rent-home:hover::after {
+    width: 100%;
+}
+
+.our-services .service-content .rent-home img {
+    width: ;
+    height: ;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.our-services .service-content .rent-home a h3 {
+    font-size: 29px;
+    color: black;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.our-services .service-content .rent-home p {
+    font-size: 18px;
+    color: #9fa7ae;
+    padding: 18px 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.our-services .service-content .rent-home .find p {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #93b4b2;
+    transition: all linear 0.5s;
+}
+
+.our-services .service-content .rent-home:hover .find p {
+    color: #ff5a3c;
+}
+
+
+/* rent home css ends */
+
+.our-services .service-content .sell-home {
+    width: 364px;
+    height: 430px;
+    background-color: #ffffff;
+    float: left;
+    position: relative;
+    transition: all linear 0.5s;
+}
+
+.our-services .service-content .sell-home::before {
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    background: tomato;
+    left: 0;
+    bottom: 0;
+    transition: all linear .3s;
+}
+
+.our-services .service-content .sell-home:hover::before {
+    width: 100%
+}
+
+.our-services .service-content .sell-home img {
+    width: ;
+    height: ;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.our-services .service-content .sell-home a h3 {
+    font-size: 29px;
+    color: black;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.our-services .service-content .sell-home p {
+    font-size: 18px;
+    color: #9fa7ae;
+    padding: 18px 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.our-services .service-content .sell-home .find p {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #93b4b2;
+    transition: all linear 0.5s;
+}
+
+.our-services .service-content .sell-home:hover {
+    border-color: #ff5a3c;
+}
+
+.our-services .service-content .sell-home:hover .find p {
+    color: #ff5a3c;
+}
+
+
+/* sell home css ends */
+
+
+/* ===============
+	our-services css ends
+ ================= */
+
+
+/* ===================
+ our-enimities css starts 
+======================*/
+
+.aminities-heading {
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.aminities-heading img {
+    width: 155px;
+    height: 42px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+.aminities-heading h2 {
+    font-size: 43px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-left: 420px;
+    padding-top: 13px;
+}
+
+
+/* aminities css ends */
+
+.ami-content-1 {
+    width: 1150px;
+    height: 390px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+/* parking css starts */
+
+.ami-content-1 a .parking {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-1 a .parking .car-park {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-1 a .parking .car-park img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-1 a .parking .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-1 a .parking span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-1 a .parking p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-1 a .parking:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-1 a .parking:hover p {
+    color: white;
+}
+
+.ami-content-1 a .parking:hover span {
+    color: white;
+}
+
+
+/* parking css ends */
+
+
+/* swimming css starts */
+
+.ami-content-1 .swimming {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-1 a .swimming .swim {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-1 a .swimming .swim img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-1 a .swimming .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-1 a .swimming span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-1 a .swimming p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-1 a .swimming:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-1 a .swimming:hover p {
+    color: white;
+}
+
+.ami-content-1 a .swimming:hover span {
+    color: white;
+}
+
+
+/* swimming css ends  */
+
+
+/* private css starts */
+
+.ami-content-1 a .private {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-1 a .private .security {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-1 a .private .security img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-1 a .private .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-1 a .private span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-1 a .private p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-1 a .private:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-1 a .private:hover p {
+    color: white;
+}
+
+.ami-content-1 a .private:hover span {
+    color: white;
+}
+
+
+/* private css ends */
+
+
+/* medical css starts */
+
+.ami-content-1 a .medical {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-1 a .medical .center {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-1 a .medical .center img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-1 a .medical .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-1 a .medical span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-1 a .medical p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-1 a .medical:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-1 a .medical:hover p {
+    color: white;
+}
+
+.ami-content-1 a .medical:hover span {
+    color: white;
+}
+
+
+/* 2nd row css ends */
+
+.ami-content-2 {
+    width: 1150px;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+/* library css starts */
+
+.ami-content-2 a .library {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-2 a .library .li-area {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-2 a .library .li-area img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-2 a .library .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-2 a .library span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-2 a .library p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-2 a .library:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-2 a .library:hover p {
+    color: white;
+}
+
+.ami-content-2 a .library:hover span {
+    color: white;
+}
+
+
+/* library css ends */
+
+
+/* king-beds css starts */
+
+.ami-content-2 .king {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-2 a .king .king-beds {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-2 a .king .king-beds img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-2 a .king .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-2 a .king span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-2 a .king p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-2 a .king:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-2 a .king:hover p {
+    color: white;
+}
+
+.ami-content-2 a .king:hover span {
+    color: white;
+}
+
+
+/* king css ends  */
+
+
+/* smart-home css starts */
+
+.ami-content-2 a .smart {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-2 a .smart .smart-home {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-2 a .smart .smart-home img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-2 a .smart .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-2 a .smart span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-2 a .smart p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-2 a .smart:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-2 a .smart:hover p {
+    color: white;
+}
+
+.ami-content-2 a .smart:hover span {
+    color: white;
+}
+
+
+/* smart-home css ends */
+
+
+/* kids-playlands css starts */
+
+.ami-content-2 a .kids {
+    width: 265px;
+    height: 340px;
+    background-color: #ecf0f1;
+    float: left;
+    border-radius: 5%;
+    transition: all linear 0.3s;
+}
+
+.ami-content-2 a .kids .kids-playlands {
+    width: 110px;
+    height: 110px;
+    background-color: #fff2f0;
+    margin: 30px 22px;
+    float: right;
+    border-radius: 50%;
+}
+
+.ami-content-2 a .kids .kids-playlands img {
+    width: 65px;
+    height: 65px;
+    padding: 21%;
+}
+
+.ami-content-2 a .kids .num {
+    padding-top: 155px;
+    color: red;
+    font-size: 23px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+.ami-content-2 a .kids span {
+    color: black;
+    font-size: 23px;
+    padding-left: 27px;
+    text-transform: capitalize;
+}
+
+.ami-content-2 a .kids p {
+    padding-top: 15px;
+    color: #738192;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.ami-content-2 a .kids:hover {
+    background-color: #ff5a3c;
+}
+
+.ami-content-2 a .kids:hover p {
+    color: white;
+}
+
+.ami-content-2 a .kids:hover span {
+    color: white;
+}
+
+
+/* ===================
+ our-enimities css ends
+ ==================== */
+
+
+/* ===================
+ Clients Feedback css starts
+ ==================== */
+
+.feedback-heading {
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #f8f7fc;
+}
+
+.feedback-heading img {
+    width: 155px;
+    height: 42px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+.feedback-heading h2 {
+    font-size: 43px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-left: 420px;
+    padding-top: 13px;
+}
+
+
+/* feedback-heading css ends */
+
+.feedback {
+    width: 1150px;
+    height: 400px;
+    background-color: #f8f7fc;
+    margin: 0 auto;
+}
+
+
+/* class-1 css starts */
+
+.feedback .class-1 {
+    width: 363px;
+    height: 360px;
+    background-color: white;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-1::before {
+    content: '';
+    width: 0;
+    height: 5px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all linear .3s;
+}
+
+.feedback .class-1:hover::before {
+    width: 100%;
+}
+
+.feedback .class-1:hover .first p span {
+    color: #ff5a3c;
+}
+
+.feedback .class-1 .first {
+    width: 363px;
+    height: 220px;
+}
+
+.feedback .class-1 .first p {
+    font-size: 20px;
+    color: #6a7e88;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+
+.feedback .class-1 .first p span {
+    font-size: 40px;
+    color: #6a7e88;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-1 .second {
+    width: 363px;
+    height: 100px;
+}
+
+.feedback .class-1 .second .box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.feedback .class-1 .second .box img {
+    width: 65px;
+    position: absolute;
+    top: 16px;
+    left: 17px;
+}
+
+.feedback .class-1 .second .name {
+    width: 230px;
+    height: 100px;
+    float: left;
+}
+
+.feedback .class-1 .second .name h5 {
+    font-size: 21px;
+    text-transform: capitalize;
+    padding-top: 19px;
+    padding-bottom: 7px;
+}
+
+.feedback .class-1 .second .name p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #6a7e88;
+}
+
+
+/* class-1 css ends */
+
+
+/* class-2 css starts */
+
+.feedback .class-2 {
+    width: 363px;
+    height: 360px;
+    background-color: white;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-2::before {
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ff5a3c;
+    transition: all linear .3s;
+}
+
+.feedback .class-2:hover::before {
+    width: 100%;
+}
+
+.feedback .class-2:hover .first p span {
+    color: #ff5a3c;
+}
+
+.feedback .class-2 .first {
+    width: 363px;
+    height: 220px;
+}
+
+.feedback .class-2 .first p {
+    font-size: 20px;
+    color: #6a7e88;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+
+.feedback .class-2 .first p span {
+    font-size: 40px;
+    color: #6a7e88;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-2 .second {
+    width: 363px;
+    height: 100px;
+}
+
+.feedback .class-2 .second .box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.feedback .class-2 .second .box img {
+    width: 65px;
+    position: absolute;
+    top: 16px;
+    left: 17px;
+}
+
+.feedback .class-2 .second .name {
+    width: 230px;
+    height: 100px;
+    float: left;
+}
+
+.feedback .class-2 .second .name h5 {
+    font-size: 21px;
+    text-transform: capitalize;
+    padding-top: 19px;
+    padding-bottom: 7px;
+}
+
+.feedback .class-2 .second .name p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #6a7e88;
+}
+
+
+/* class-2 css ends */
+
+
+/* class-3 css starts */
+
+.feedback .class-3 {
+    width: 364px;
+    height: 360px;
+    background-color: white;
+    float: left;
+    position: relative;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-3::before {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all linear .3s;
+}
+
+.feedback .class-3:hover::before {
+    width: 100%;
+}
+
+.feedback .class-3:hover {
+    border-color: #ff5a3c;
+}
+
+.feedback .class-3:hover .first p span {
+    color: #ff5a3c;
+}
+
+.feedback .class-3 .first {
+    width: 363px;
+    height: 220px;
+}
+
+.feedback .class-3 .first p {
+    font-size: 20px;
+    color: #6a7e88;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+
+.feedback .class-3 .first p span {
+    font-size: 40px;
+    color: #6a7e88;
+    transition: all linear 0.2s;
+}
+
+.feedback .class-3 .second {
+    width: 363px;
+    height: 100px;
+}
+
+.feedback .class-3 .second .box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.feedback .class-3 .second .box img {
+    width: 65px;
+    position: absolute;
+    top: 16px;
+    left: 17px;
+}
+
+.feedback .class-3 .second .name {
+    width: 230px;
+    height: 100px;
+    float: left;
+}
+
+.feedback .class-3 .second .name h5 {
+    font-size: 21px;
+    text-transform: capitalize;
+    padding-top: 19px;
+    padding-bottom: 7px;
+}
+
+.feedback .class-3 .second .name p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #6a7e88;
+}
+
+
+/* class-3 css ends */
+
+
+/* ===================
+ Clients Feedback css ends
+ ==================== */
+
+
+/* ===================
+ news & blog css starts
+ ==================== */
+
+.blog-news {
+    width: 100%;
+    background-color: ;
+}
+
+.news-heading {
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.news-heading img {
+    width: 155px;
+    height: 42px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+.news-heading h2 {
+    font-size: 43px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-left: 420px;
+    padding-top: 13px;
+}
+
+
+/* news-heading css ends */
+
+.all {
+    width: 100%;
+    background-color: #ecf0f1;
+}
+
+.blog {
+    width: 1150px;
+    height: 540px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+}
+
+
+/* a css starts */
+
+.blog .a {
+    width: 363px;
+    height: 500px;
+    float: left;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.blog .a .photo {
+    width: 363px;
+    height: 280px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.blog .a .photo a img {
+    width: 363px;
+    height: 280px;
+    transition: all linear .5s;
+}
+
+.blog .a .photo:hover img {
+    transform: scale(1.1);
+}
+
+.blog .a .shanto {
+    width: 363px;
+    height: 150px;
+    position: relative;
+}
+
+.blog .a .shanto a img {
+    width: 95px;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.blog .a .shanto a h5 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    color: black;
+    transition: all linear 0.2s;
+}
+
+.blog .a .shanto a h5:hover {
+    color: tomato;
+}
+
+.blog .a .shanto hr {
+    width: 300px;
+    margin: 0 auto;
+    color: #788a93;
+}
+
+.blog .a .shanto p {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    color: #788a93;
+}
+
+.blog .a .shanto .read {
+    position: absolute;
+    text-transform: uppercase;
+    color: tomato;
+    bottom: -50px;
+    right: 25px;
+}
+
+
+/* a css ends */
+
+.blog .b {
+    width: 363px;
+    height: 500px;
+    float: left;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.blog .b .photo {
+    width: 363px;
+    height: 280px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.blog .b .photo a img {
+    width: 363px;
+    height: 280px;
+    transition: all linear .5s;
+}
+
+.blog .b .photo:hover img {
+    transform: scale(1.1);
+}
+
+.blog .b .shanto {
+    width: 363px;
+    height: 150px;
+    position: relative;
+}
+
+.blog .b .shanto a img {
+    width: 95px;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.blog .b .shanto a h5 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    color: black;
+    transition: all linear 0.2s;
+}
+
+.blog .b .shanto a h5:hover {
+    color: tomato;
+}
+
+.blog .b .shanto hr {
+    width: 300px;
+    margin: 0 auto;
+    color: #788a93;
+}
+
+.blog .b .shanto p {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    color: #788a93;
+}
+
+.blog .b .shanto .read {
+    position: absolute;
+    text-transform: uppercase;
+    color: tomato;
+    bottom: -50px;
+    right: 25px;
+}
+
+
+/* b css ends */
+
+.blog .c {
+    width: 364px;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+
+.blog .c .photo {
+    width: 363px;
+    height: 280px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.blog .c .photo a img {
+    width: 363px;
+    height: 280px;
+    transition: all linear .5s;
+}
+
+.blog .c .photo:hover img {
+    transform: scale(1.1);
+}
+
+.blog .c .shanto {
+    width: 363px;
+    height: 150px;
+    position: relative;
+}
+
+.blog .c .shanto a img {
+    width: 95px;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.blog .c .shanto a h5 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    color: black;
+    transition: all linear 0.2s;
+}
+
+.blog .c .shanto a h5:hover {
+    color: tomato;
+}
+
+.blog .c .shanto hr {
+    width: 300px;
+    margin: 0 auto;
+    color: #788a93;
+}
+
+.blog .c .shanto p {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    color: #788a93;
+}
+
+.blog .c .shanto .read {
+    position: absolute;
+    text-transform: uppercase;
+    color: tomato;
+    bottom: -50px;
+    right: 25px;
+}
+
+
+/* c css ends */
+
+
+/* ===================
+ news & blog css ends
+ ==================== */
+
+
+/* ===================
+ explore css starts
+ ==================== */
+
+.explore-1 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+
+.explore-1 .explore-2 {
+    width: 1150px;
+    height: 190px;
+    background-color: #ff5a3c;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+.explore-1 .explore-2 h2 {
+    font-size: 45px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.explore-1 .explore-2 p {
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.explore-1 .explore-2 a .explor-pro {
+    width: 260px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid red;
+    position: absolute;
+    right: 60px;
+    top: 70px;
+    transition: all linear 0.2s;
+}
+
+.explore-1 .explore-2 a .explor-pro p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.explore-1 .explore-2 a .explor-pro:hover {
+    background-color: black;
+}
+
+.explore-1 .explore-2 a .explor-pro:hover p {
+    color: white;
+}
+
+
+/* ===================
+ explore css ends
+ ==================== */
+
+
+/* =================
+ footer css starts 
+ ================= */
+
+.footer .footer-1 {
+    width: 100%;
+    height: 160px;
+    background-color: #171b2a;
+}
+
+.footer .footer-2 {
+    width: 100%;
+    height: 450px;
+    background-color: #171b2a;
+}
+
+
+/* contact-1 css starts */
+
+.footer .footer-2 .contact-1 {
+    width: 25%;
+    height: 450px;
+    background-color: #171b2a;
+    float: left;
+    list-style: none;
+}
+
+.footer .footer-2 .contact-1 img {
+    padding-left: 30px;
+}
+
+.footer .footer-2 .contact-1 div {
+    width: 260px;
+    height: 110px;
+    margin-left: 10px;
+}
+
+.footer .footer-2 .contact-1 div p {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    color: white;
+    line-height: 25px;
+}
+
+.footer .footer-2 .contact-1 .location {
+    width: 260px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer .footer-2 .contact-1 .location img {
+    width: 19px;
+    height: 26px;
+    padding-left: 19px;
+}
+
+.footer .footer-2 .contact-1 .location p {
+    position: absolute;
+    bottom: 1px;
+    left: 26px;
+}
+
+.footer .footer-2 .contact-1 .phn {
+    width: 260px;
+    height: 36px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.footer .footer-2 .contact-1 .phn img {
+    width: 23px;
+    padding-left: 19px;
+}
+
+.footer .footer-2 .contact-1 .phn p {
+    position: absolute;
+    bottom: 14px;
+    left: 27px;
+}
+
+.footer .footer-2 .contact-1 .gmail {
+    width: 260px;
+    height: 36px;
+    margin-left: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.footer .footer-2 .contact-1 .gmail img {
+    width: 25px;
+    padding-left: 19px;
+}
+
+.footer .footer-2 .contact-1 .gmail a {
+    color: white;
+    position: absolute;
+    right: 50px;
+    bottom: 18px;
+    transition: all linear 0.3s;
+}
+
+.footer .footer-2 .contact-1 .gmail a:hover {
+    color: red;
+}
+
+.footer .footer-2 .contact-1 .social-link {
+    width: 260px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.footer .footer-2 .contact-1 .social-link a img {
+    width: 26px;
+    padding-left: 5px;
+}
+
+
+/* contact-1 css ends */
+
+
+/* company css starts */
+
+.footer .footer-2 .company {
+    width: 17%;
+    height: 450px;
+    background-color: #171b2a;
+    float: left;
+}
+
+.footer .footer-2 .company h4 {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer .footer-2 .company ul li {
+    list-style: none;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+
+.footer .footer-2 .company ul li a {
+    color: white;
+    transition: all linear 0.1s;
+}
+
+.footer .footer-2 .company ul li a span {
+    opacity: 0;
+    transition: .3s;
+}
+
+.footer .footer-2 .company ul li:hover a span {
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.footer .footer-2 .company ul li a:hover {
+    color: red;
+}
+
+
+/* company css ends */
+
+
+/* services css starts */
+
+.footer .footer-2 .services {
+    width: 17%;
+    height: 450px;
+    background-color: #171b2a;
+    float: left;
+}
+
+.footer .footer-2 .services h4 {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer .footer-2 .services ul li {
+    list-style: none;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+
+.footer .footer-2 .services ul li a {
+    color: white;
+    transition: all linear 0.1s;
+}
+
+.footer .footer-2 .services ul li a:hover {
+    color: red;
+}
+
+.footer .footer-2 .services ul li a span {
+    opacity: 0;
+    transition: .3s;
+}
+
+.footer .footer-2 .services ul li:hover a span {
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+
+/* services css ends */
+
+
+/* customer-care css starts */
+
+.footer .footer-2 .customer-care {
+    width: 17%;
+    height: 450px;
+    background-color: #171b2a;
+    float: left;
+}
+
+.footer .footer-2 .customer-care h4 {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+.footer .footer-2 .customer-care ul li {
+    list-style: none;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+
+.footer .footer-2 .customer-care ul li a {
+    color: white;
+    transition: all linear 0.1s;
+}
+
+.footer .footer-2 .customer-care ul li a:hover {
+    color: red;
+}
+
+.footer .footer-2 .customer-care ul a span {
+    opacity: 0;
+    transition: .3s;
+}
+
+.footer .footer-2 .customer-care ul li:hover a span {
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+
+/* customer-care css ends */
+
+
+/* newsletter css starts */
+
+.footer .footer-2 .newsletter {
+    width: 24%;
+    height: 450px;
+    background-color: #171b2a;
+    float: left;
+}
+
+.footer .footer-2 .newsletter h4 {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer .footer-2 .newsletter p {
+    font-size: 17px;
+    color: white;
+    padding-right: 40px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+
+.footer .footer-2 .newsletter .email-1 {
+    width: 270px;
+    height: 65px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.footer .footer-2 .newsletter .email-1 form input {
+    width: 210px;
+    height: 61px;
+    padding-left: 20px;
+}
+
+.footer .footer-2 .newsletter .email-1 a .sent {
+    width: 56px;
+    height: 65px;
+    background-color: tomato;
+    position: absolute;
+    left: 214px;
+    bottom: 0px;
+    transition: all linear 0.2s;
+}
+
+.footer .footer-2 .newsletter .email-1 a .sent:hover {
+    background-color: black;
+}
+
+.footer .footer-2 .newsletter .email-1 a .sent p {
+    font-size: 26px;
+    line-height: 65px;
+    padding-left: 12px;
+}
+
+.footer .footer-2 .newsletter h5 {
+    font-size: 20px;
+    color: white;
+    padding-top: 26px;
+    padding-bottom: 19px;
+}
+
+.footer .footer-2 .newsletter img {
+    height: 31px;
+}
+
+
+/* newsletter css ends */
+
+
+/* footer-3 starts */
+
+.footer .footer-3 {
+    width: 100%;
+    height: 80px;
+    background-color: #282b38;
+}
+
+.footer .footer-3 .terms {
+    width: 1210px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.footer .footer-3 .terms .con {
+    width: 860px;
+    height: 80px;
+    float: left;
+}
+
+.footer .footer-3 .terms .con p {
+    line-height: 80px;
+    font-size: 17px;
+    color: white;
+}
+
+.footer .footer-3 .terms .conditions {
+    width: 350px;
+    height: 80px;
+    float: left;
+}
+
+.footer .footer-3 .terms .conditions ul li {
+    list-style: none;
+    float: left;
+}
+
+.footer .footer-3 .terms .conditions ul li a {
+    color: white;
+    line-height: 80px;
+    padding: 0 10px;
+    transition: all linear 0.2s;
+}
+
+.footer .footer-3 .terms .conditions ul li a:hover {
+    color: red;
+}
+
+
+/* footer-3 ends */
+
+
+/* =================
+ footer css ends 
+ ================= */
+
+
+/* menu css ends */
